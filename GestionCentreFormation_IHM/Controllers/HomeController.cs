@@ -26,5 +26,14 @@ namespace GestionCentreFormation_IHM.Controllers
 
             return View();
         }
+
+        public ActionResult Data(string id)
+        {
+            //return "<html><body><h1>Je suis une chaine de caractère avec " + (id ?? "rien") + " comme paramètre</h1></body></html>";
+
+            ViewBag.msg = id;
+
+            return View();
+        }
     }
 }
