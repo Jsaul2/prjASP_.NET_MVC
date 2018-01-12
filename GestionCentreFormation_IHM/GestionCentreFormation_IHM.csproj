@@ -204,6 +204,9 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Data.cshtml" />
     <Content Include="Views\ThemeFormation\Index.cshtml" />
+    <Content Include="Views\ThemeFormation\Create.cshtml" />
+    <Content Include="Views\ThemeFormation\Details.cshtml" />
+    <Content Include="Views\ThemeFormation\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
